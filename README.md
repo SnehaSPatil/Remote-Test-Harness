@@ -1,0 +1,2 @@
+# Remote-Test-Harness
+A remote test harness was constructed that processes test requests from multiple clients concurrently using C# threads and AppDomains. The test code, test drivers and the generated test logs ad results are stored in remote repository. The querying of logs is also supported. All client activities were defined by user actions in a Windows Presentation Foundation (WPF) user interface. All communication between repository, client and test harness were based on message-passing Windows Communication Foundation (WCF) channels.
